@@ -1,0 +1,12 @@
+train: /Users/mac/Python/yolov7_custom/custom_dataset/train/images
+val: /Users/mac/Python/yolov7_custom/custom_dataset/valid/images
+test: /Users/mac/Python/yolov7_custom/custom_dataset/test/images
+nc: 6
+names: ["Gloves", "Helmet", "Non-Helmet", "Person", "Shoes", "Vest"]
+
+roboflow:
+  workspace: be-safe
+  project: dllflff
+  version: 14
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/be-safe/dllflff/dataset/
