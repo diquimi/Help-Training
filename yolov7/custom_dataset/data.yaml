@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 12
+names: ['Aji-no-moto', 'Coca-Cola', 'Gery Saluut Coconut', 'Indofood-Kecap-Manis', 'Indofood-Sambal-Pedas', 'Indomie-Mi-Goreng', 'Lifebuoy-Total-10', 'Mentos-Mint', 'Mimi-Kids-Cokelat', 'Popmie-Rasa-Ayam', 'Prochiz-Gold-Cheddar', 'Sasa-Santan-Kelapa']
+
+roboflow:
+  workspace: thesis-tests
+  project: grocery-brands-v2
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/thesis-tests/grocery-brands-v2/dataset/2
